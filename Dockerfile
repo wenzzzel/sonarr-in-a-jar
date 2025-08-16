@@ -1,5 +1,5 @@
 # Use the official LinuxServer Sonarr image
-FROM lscr.io/linuxserver/sonarr:version-4.0.14.2939
+FROM lscr.io/linuxserver/sonarr:4.0.15
 
 RUN apk add --update --no-cache sshpass
 RUN apk add --update --no-cache openssh
